@@ -28,7 +28,7 @@ class ProductsHttpServices {
     required int rating,
     required String auksiontime,
   }) async {
-    Uri url = Uri.parse("https://fir-73d12-default-rtdb.firebaseio.com/products.json");
+    Uri url = Uri.parse("https://fir-73d12-default-rtdb.firebaseio.com/products/$id.json");
     Map<String, dynamic> productData = {
       "id": id,
       "name": name,

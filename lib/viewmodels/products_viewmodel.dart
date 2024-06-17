@@ -1,5 +1,5 @@
 import 'package:admin_page/models/product.dart';
-import 'package:admin_page/repositories/products_repository.dart';
+import 'package:admin_page/repositories/products_repository';
 
 class ProductsViewmodel {
   final productsRepository = ProductsRepository();
